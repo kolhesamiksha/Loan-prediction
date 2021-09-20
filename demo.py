@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import time
 
-model= pickle.load(open('C:/Loan_prediction model/Model/loanpred.pkl','rb'))
-data = pd.read_csv('C:/Loan_prediction model/Load_data/test_Y3wMUE5_7gLdaTN.csv')
-train_x = pd.read_csv('C:/Loan_prediction model/Load_data/train_u6lujuX_CVtuZ9i.csv')
+model= pickle.load(open('loanpred.pkl','rb'))
+data = pd.read_csv('test_Y3wMUE5_7gLdaTN.csv')
+train_x = pd.read_csv('train_u6lujuX_CVtuZ9i.csv')
 
 rad = st.sidebar.radio("Navigation",["Home","Visualisation","Model"])
 if rad == "Home":
