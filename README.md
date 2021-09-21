@@ -45,6 +45,5 @@ In this Model, i have applied the preprocessing techniques as follows:
 
 # Deployment -
 Heroku Deployment through GitHub : <font color='Purple'> "Below is the loan-prediction-webapp Link"
-	
-
+	https://loan-prediction-myapp.herokuapp.com/
 
