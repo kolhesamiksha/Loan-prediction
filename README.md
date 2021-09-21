@@ -15,10 +15,10 @@ In this Model, i have applied the preprocessing techniques as follows:
 10. Validation Technique: To deal with overfitting and imbalance dataset **bold**StratifiedKFold  is efficient.
 11. Feature engineering: It's better to add any features for improving model performance on them..addition of new features based on hypothesis generated before..
 12. Model Selection: I have applied LogisticRegression , DecisionTreeClassifier , RandomForestClassifier, SVC, Naive bayes,  XGBoost, KNN, 
-13. Performance improvement by using hyper-parameter optimisation..and Select the Model..I have chosen Logistic Regression coz, it's giving better accuracy.
+13. Performance improvement by using hyper-parameter optimisation..and Select the Model..I have chosen Logistic Regression coz, it's giving better accuracy,precision,f1 score.
 
 ## Tools Used-
-1. Python - 3.9.
+1. Python - 3.9.6
 2. Google Colab - for analysis.
 3. Pycharm - for streamlit webapp builting.
 4. Heroku - for deployment.
@@ -35,13 +35,14 @@ In this Model, i have applied the preprocessing techniques as follows:
  6. Streamlit-    0.88.0 
  
  ## Classifiers Used: 
- 1. Logistic Regression      --> 
- 2. Polynomial Regression    -->
- 3. Decision Tree classifier -->
- 4. Random Forest classifier -->
- 5. Support vector classifier-->
- 6. KNN                      -->
- 7. Naive Bayes              -->
+ 1. Logistic Regression      --> 0.81%
+ 2. Polynomial Regression    --> 0.77%
+ 4. Decision Tree classifier --> 0.79%
+ 5. Random Forest classifier --> 0.80%
+ 6. Support vector classifier--> 0.61%
+ 7. KNN                      --> 0.62%
+ 8. Naive Bayes              --> 0.77%
+ 9. LinearDiscriminantAnalyis--> 0.79%
 
 # Deployment -
 Heroku Deployment through GitHub : <font color='Purple'> "Below is the loan-prediction-webapp Link"
