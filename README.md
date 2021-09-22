@@ -12,7 +12,7 @@ In this Model, i have applied the preprocessing techniques as follows:
 7. Model Building: By chosing different ML algo's and checking the training and validation accuracy we can best select the model.
 8. Imbalance Dataset handling: If our dataset is imbalance then it would bias towards some data may lead to incorrect result..it can effectively handled using smote as oversampling technique and Ensemble with undersampling.
 9. Model performace: If our model has high bias and very low Variance >6%...model is overfitting and is both bias and variance are low then underfitting
-10. Validation Technique: To deal with overfitting and imbalance dataset **bold**StratifiedKFold  is efficient.
+10. Validation Technique: To deal with overfitting and imbalance dataset **StratifiedKFold**  is efficient.
 11. Feature engineering: It's better to add any features for improving model performance on them..addition of new features based on hypothesis generated before..
 12. Model Selection: I have applied LogisticRegression , DecisionTreeClassifier , RandomForestClassifier, SVC, Naive bayes,  XGBoost, KNN, 
 13. Performance improvement by using hyper-parameter optimisation..and Select the Model..I have chosen Logistic Regression coz, it's giving better accuracy,precision,f1 score.
