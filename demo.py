@@ -10,9 +10,9 @@ model= pickle.load(open('loanpred.pkl','rb'))
 data = pd.read_csv('test_Y3wMUE5_7gLdaTN.csv')
 train_x = pd.read_csv('train_u6lujuX_CVtuZ9i.csv')
 
-rad = st.sidebar.radio("Navigation",["Home","Visualisation","Model"])
+rad = st.sidebar.radio("**Navigation**",["Home","Visualisation","Model"])
 if rad == "Home":
-    st.title("Loan Prediction Data :money_with_wings:")
+    st.title("Bank Loan Data :money_with_wings:")
     s = st.expander("----------------------------------------------------------------------------",False)
     if s.checkbox("Display Data"):
         st.write("Shape of the table",data.shape)
@@ -98,16 +98,16 @@ if rad == "Model":
     cred = st.selectbox('Cedit score',cred_options,format_func=lambda x: cred_options[x])
 
     #Applicant Monthly Income
-    mon_income = st.number_input("Applicant's Monthly Income",value=0)
+    mon_income = st.number_input("Applicant's Monthly Income($)",value=0)
 
     #Co-applicantMonthly Income
-    co_mon_income = st.number_input("Co-Applicant's Monthly Income",value=0)
+    co_mon_income = st.number_input("Co-Applicant's Monthly Income($)",value=0)
 
     #Loan_Amount
-    loan_amt = st.number_input('Laon Amount',value=0)
+    loan_amt = st.number_input('Loan Amount',value=0)
 
     #Loan Duration
-    dur_display = ('2 Months','6 Months','8 Monts','1 Year','16 Months')
+    dur_display = ('2 Months','6 Months','8 Months','1 Year','16 Months')
     dur_options = list(range(len(dur_display)))
     dur = st.selectbox('Loan Duration',dur_options,format_func=lambda x: dur_display[x])
 
