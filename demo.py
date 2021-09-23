@@ -12,7 +12,7 @@ train_x = pd.read_csv('train_u6lujuX_CVtuZ9i.csv')
 
 rad = st.sidebar.radio("**Navigation**",["Home","Visualisation","Model"])
 if rad == "Home":
-    st.title("Bank Loan Data :money_with_wings:")
+    st.title("Loan Prediction Data :money_with_wings:")
     s = st.expander("----------------------------------------------------------------------------",False)
     if s.checkbox("Display Data"):
         st.write("Shape of the table",data.shape)
