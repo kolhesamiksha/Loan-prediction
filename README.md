@@ -43,6 +43,7 @@ In this Model, i have applied the preprocessing techniques as follows:
  7. KNN                      --> 0.62%
  8. Naive Bayes              --> 0.77%
  9. LinearDiscriminantAnalyis--> 0.79%
+ 10.XGBoost                  --> 85%
 
 # Deployment -
 Heroku Deployment through GitHub : <font color='Purple'> "Below is the loan-prediction-webapp Link"
