@@ -10,9 +10,9 @@ model= pickle.load(open('loanpred.pkl','rb'))
 data = pd.read_csv('test_Y3wMUE5_7gLdaTN.csv')
 train_x = pd.read_csv('train_u6lujuX_CVtuZ9i.csv')
 
-rad = st.sidebar.radio("**Navigation**",["Home","Visualisation","Model"])
+rad = st.sidebar.radio("Navigation",["Home","Visualisation","Model"])
 if rad == "Home":
-    st.title("Loan Prediction Data :money_with_wings:")
+    st.title("Bank Loan Prediction:money_with_wings:")
     s = st.expander("----------------------------------------------------------------------------",False)
     if s.checkbox("Display Data"):
         st.write("Shape of the table",data.shape)
