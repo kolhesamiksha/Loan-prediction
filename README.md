@@ -46,6 +46,6 @@ In this Model, i have applied the preprocessing techniques as follows:
  10.XGBoost                  --> 85%
 
 # Deployment -
-Heroku Deployment through GitHub : <font color='Purple'> "Below is the loan-prediction-webapp Link"
-	https://loan-prediction-myapp.herokuapp.com/
+Streamlit Deployment through GitHub : <font color='Purple'> "Below is the loan-prediction-webapp Link"
+	https://kolhesamiksha-loan-prediction-demo-8boafr.streamlit.app/
 
